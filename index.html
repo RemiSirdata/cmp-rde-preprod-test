@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>CMP rde test</title>
+    <script defer type="text/javascript">
+        function loadElement(url) {
+            let el = document.createElement("script");
+            el.src=url;
+            document.body.append(el);
+        }
+    </script>
 </head>
 <body>
 Test cmp preprod
-<!--
-<script type="text/javascript" src="https://cmp-rde-preprod.sirdata-test.com/js/pa/20876/c/h2hQC/stub" data-cfasync="false" referrerpolicy="unsafe-url"></script>
-<script type="text/javascript" src="https://cmp-rde-preprod.sirdata-test.com/js/pa/20876/c/h2hQC/cmp" data-cfasync="false" referrerpolicy="unsafe-url" async></script>
--->
-<script type="text/javascript" src="/js/cmp/ie11.js" data-cfasync="false" referrerpolicy="unsafe-url" async></script>
+
+<button onclick="loadElement('https://cmp-rde-preprod.sirdata-test.com/js/pa/20876/c/h2hQC/stub')">Load stub from server</button>
+<br/>
+<button onclick="loadElement('https://cmp-rde-preprod.sirdata-test.com/js/pa/20876/c/h2hQC/cmp')">Load cmp from server</button>
+<br/>
+<button onclick="loadElement('/js/cmp/ie11.js')">Load cmp local ie11</button>
 
 </body>
 </html>

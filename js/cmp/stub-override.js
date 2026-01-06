@@ -161,13 +161,6 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         } catch (e) {}
     });
 })();
-var scripts = document.getElementsByTagName("script");
-for(var i = 0; i < scripts.length;i++) {
-    if(scripts[i].src.indexOf("https://cmp-rde-preprod.sirdata-test.com/js/pa/20876/c/h2hQC/cmp") >= 0) {
-        scripts[i].src += "/ie11";
-    }
-}
-
 // Détection basique d'IE11
 var isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
 

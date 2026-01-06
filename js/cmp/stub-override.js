@@ -167,3 +167,39 @@ for(var i = 0; i < scripts.length;i++) {
         scripts[i].src += "/ie11";
     }
 }
+
+// Détection basique d'IE11
+var isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+
+if (isIE11) {
+    // On écoute l'événement spécifique à IE
+    document.addEventListener('beforescriptexecute', function(e) {
+        var script = e.target;
+
+        // Vérification : est-ce le script que l'on veut bloquer ?
+        // Remplacez 'votre-fichier-moderne.js' par le nom de votre fichier CMP
+        if (script.src && script.src.indexOf('https://cmp-rde-preprod.sirdata-test.com/js/pa/20876/c/h2hQC/cmp') !== -1) {
+
+            // 1. On empêche le script moderne de s'exécuter
+            e.preventDefault();
+
+            // 2. On empêche le script de rester dans le DOM (optionnel mais propre)
+            // Note : Le téléchargement réseau a peut-être déjà eu lieu, mais l'exécution est bloquée.
+            if (script.parentNode) {
+                script.parentNode.removeChild(script);
+            }
+
+            // 3. On crée et injecte le nouveau script compatible IE11
+            var newScript = document.createElement('script');
+            // L'URL du script compatible (celui trouvé dans votre code précédent par exemple)
+            newScript.src = '/js/cmp/ie11-stub-with-babel.js';
+
+            // On copie les attributs importants si nécessaire (comme async ou defer)
+            newScript.async = script.async;
+            newScript.defer = script.defer;
+
+            // On injecte le nouveau script
+            document.head.appendChild(newScript);
+        }
+    });
+}

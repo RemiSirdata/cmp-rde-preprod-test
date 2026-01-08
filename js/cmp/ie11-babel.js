@@ -16,8 +16,8 @@ window.SDDAN = {
         "partner": false,
         "gdprApplies": true,
         "country": "FR",
-        "cmps": [5, 242, 456, 399, 412, 421, 437, 76, 247, 411, 354, 47, 300, 388, 123, 423, 355, 77, 134, 397, 287, 374, 410, 352, 431, 6, 363, 361, 14, 304, 28, 125, 112, 417, 481, 311, 387, 113, 420, 438, 448, 348, 350, 229, 31, 440, 58, 90, 383, 459, 63, 414, 72, 181, 419, 463, 384, 231, 401, 299, 441, 294, 371, 471, 457, 351, 475, 367, 105, 491, 264, 171, 451, 482, 10, 198, 79, 454, 446, 246, 185, 21, 225, 259, 237, 403, 327, 273, 385, 340, 472, 407, 415, 9, 450, 308, 59, 27, 2, 258, 317, 280, 430, 379, 104, 213, 449, 425, 493, 462, 61, 405, 413, 312, 318, 443, 279, 345, 46, 309, 396, 447, 212, 330, 329, 341, 303, 297, 483, 332, 343, 433, 404, 18, 323, 473, 429, 227, 25, 7, 392, 222, 236, 291, 306, 292, 364, 92, 302, 434, 335, 35, 167, 428, 453, 260, 452, 235, 474, 436, 445, 220, 480, 418, 218, 376, 426, 54, 200, 380, 390, 162, 321, 168, 386, 416, 432, 68, 382, 435, 224],
-        "tlds": ["axa", "education", "biz", "digital", "mobi", "club", "org.pl", "co.il", "co.id", "immo", "com.pt", "bzh", "cab", "cat", "ai", "top", "cn", "properties", "nc", "edu.au", "asso.fr", "corsica", "radio", "news", "is", "app", "com.mk", "org", "es", "at", "run", "pro", "guru", "io", "yoga", "vn", "paris", "ma", "kaufen", "be", "cc", "today", "no", "website", "rugby", "ch", "win", "com", "com.ar", "info.pl", "tv", "lv", "dog", "goog", "guide", "football", "com.cy", "co.za", "re", "bz.it", "gr", "ac.uk", "academy", "com.pl", "co.uk", "press", "one", "me", "info", "com.au", "com.br", "pt", "in", "sk", "com.mt", "st", "travel", "best", "com.ua", "site", "pl", "sport", "com.tr", "estate", "ci", "com.pe", "tools", "africa", "fm", "com.co", "com.hr", "style", "al", "jp", "nu", "de", "bg", "com.mx", "blog", "uk", "casa", "media", "us", "co", "fail", "tech", "fit", "credit", "sn", "tw", "forsale", "ru", "xyz", "cz", "cl", "space", "gf", "lu", "recipes", "sg", "ee", "it", "hu", "net", "lt", "ae", "com.es", "ro", "com.my", "si", "ca", "dk", "email", "school", "fr", "se", "online", "eu", "aero", "studio", "mx", "md", "ie", "nyc", "rs", "world", "ly", "pk", "co.nz", "reise", "stream", "nl", "mc", "gratis", "pics", "ec", "vip", "click", "fi", "com.ve", "ink", "ph", "art", "ba", "asia"],
+        "cmps": [471, 6, 212, 299, 410, 421, 227, 462, 340, 125, 280, 330, 308, 418, 453, 27, 302, 300, 168, 90, 491, 224, 292, 385, 104, 343, 443, 58, 345, 25, 218, 10, 390, 18, 229, 438, 411, 384, 198, 482, 363, 312, 181, 329, 441, 123, 113, 404, 318, 231, 435, 309, 431, 456, 2, 79, 473, 387, 31, 235, 415, 419, 225, 61, 237, 323, 76, 371, 475, 350, 9, 247, 383, 450, 304, 452, 200, 335, 386, 364, 63, 28, 361, 425, 430, 403, 258, 332, 396, 5, 220, 413, 264, 246, 493, 105, 379, 472, 297, 351, 260, 162, 480, 423, 388, 405, 92, 440, 273, 374, 449, 321, 454, 437, 341, 451, 399, 382, 483, 354, 448, 447, 426, 481, 416, 294, 348, 222, 401, 445, 46, 287, 397, 279, 311, 459, 47, 306, 355, 59, 457, 434, 68, 446, 291, 407, 376, 412, 236, 327, 414, 213, 352, 463, 420, 380, 433, 436, 171, 432, 392, 77, 259, 134, 185, 417, 242, 474, 367, 112, 35, 14, 428, 303, 167, 7, 72, 21, 54, 429, 317],
+        "tlds": ["ie", "forsale", "guru", "digital", "mobi", "com.ve", "academy", "properties", "nyc", "com.pe", "immo", "mx", "fm", "fr", "site", "fi", "ph", "gr", "aero", "co", "ru", "tech", "md", "world", "press", "info.pl", "es", "lu", "co.id", "pt", "co.nz", "sn", "football", "tw", "edu.au", "st", "cz", "kaufen", "uk", "ly", "jp", "com.pl", "gratis", "com.pt", "com.tr", "africa", "club", "at", "cat", "se", "today", "mc", "asia", "recipes", "vip", "com.ua", "co.uk", "com.es", "bg", "com.mk", "me", "bz.it", "news", "in", "ee", "ro", "ink", "net", "asso.fr", "com", "online", "re", "axa", "email", "website", "com.co", "it", "ai", "run", "hu", "eu", "ci", "top", "style", "lt", "com.mt", "rs", "co.il", "credit", "tools", "sg", "com.mx", "ec", "fit", "ae", "org", "space", "ba", "pk", "gf", "ac.uk", "com.ar", "com.cy", "cl", "corsica", "com.hr", "fail", "nu", "de", "nc", "art", "be", "blog", "goog", "is", "guide", "bzh", "org.pl", "info", "ca", "com.au", "sk", "xyz", "com.br", "education", "cc", "com.my", "sport", "app", "ma", "tv", "yoga", "no", "pro", "lv", "al", "vn", "rugby", "cab", "media", "stream", "us", "win", "school", "dog", "pl", "studio", "paris", "estate", "nl", "reise", "ch", "click", "biz", "si", "pics", "travel", "io", "radio", "cn", "casa", "co.za", "dk", "one", "best"],
         "variant": "cnil",
         "cappingInHours": 24,
         "apiRoot": "https://cmp-rde-preprod.sirdata-test.com/api/v1/public",
@@ -3211,10 +3211,6 @@ window.SDDAN = {
     "googleACProviderList": {
         "lastUpdated": "2026-01-08T10:56:38Z",
         "providers": [{
-            "id": 587,
-            "name": "AT Internet",
-            "policyUrl": "https://www.atinternet.com/en/company/data-protection/"
-        }, {
             "id": 1097,
             "name": "Cloudflare",
             "policyUrl": "https://www.cloudflare.com/security-policy/"
@@ -3226,6 +3222,10 @@ window.SDDAN = {
             "id": 2572,
             "name": "Snap Inc.",
             "policyUrl": "https://www.snap.com/en-US/privacy/privacy-policy/"
+        }, {
+            "id": 587,
+            "name": "AT Internet",
+            "policyUrl": "https://www.atinternet.com/en/company/data-protection/"
         }]
     }
 };

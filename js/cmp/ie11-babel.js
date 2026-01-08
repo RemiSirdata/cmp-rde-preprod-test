@@ -23808,7 +23808,7 @@ var __defProp = Object.defineProperty
                                                     }
                                             }, e)
                                         }))
-                                    }, 0, t && "SCRIPT" === t.tagName.toUpperCase() && t.src || new URL("https://toto.com/cmp.ie11.js",document.baseURI).href);
+                                    }, 0, t && "SCRIPT" === t.tagName.toUpperCase() && t.src || new URL("https://toto.com/cmp.ie11.js").href);
                             case 3:
                                 return a = e.v,
                                     c = a.default,
@@ -23842,7 +23842,7 @@ var __defProp = Object.defineProperty
                                                     }
                                             }, e)
                                         }))
-                                    }, 0, t && "SCRIPT" === t.tagName.toUpperCase() && t.src || new URL("https://toto.com/cmp.ie11.js",document.baseURI).href);
+                                    }, 0, t && "SCRIPT" === t.tagName.toUpperCase() && t.src || new URL("https://toto.com/cmp.ie11.js").href);
                             case 4:
                                 d = e.v,
                                     l = d.default,
